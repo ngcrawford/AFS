@@ -1,10 +1,8 @@
 
 Miss estimating AFS has consequences
-
 	- coverage, number of individuals (error and direction = per genotype quality threshold)
 
 1.) Get simulations going
-	
 	- Simulate lineages of chromosomes, generate 'realistic' SF use MS to generate chromosome(s) and simulate reads from chromosomes
 	- Or, draw SF, and impose them on sequences
 
@@ -20,7 +18,6 @@ Miss estimating AFS has consequences
 
 
 Start from MS:
-
 	- ten megabase genomes, theta of 1%, coverage as Gaussian with a coefficient of variation at 0.5
 
 	- errors not associated with reduced quality scores
@@ -29,7 +26,6 @@ Start from MS:
 	- mean read counts 1x to 100x (intervals of 5)
 
 To show it's needed:
-
 	RMSD (root mean squared deviation) from the true spectrum (by category)
 	- heat maps: rares, common, all. RMSD/Quatity threshold and read count
 	- same for spectra derived from "our little trick" (string pulling)
