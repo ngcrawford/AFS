@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+'''
+simulates reads using SimSeq, aligns with bwa using picard for @RG and read format management
+simseq available at: https://github.com/jstjohn/SimSeq
+example_dir points to examples directory in simseq repo (for getting error model files)
+'''
 
 import os,sys
 
